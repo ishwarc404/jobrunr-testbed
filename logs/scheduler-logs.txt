@@ -1,0 +1,45 @@
+ Container scheduler-jobrunr-testbed-scheduler-1  Recreate
+ Container scheduler-jobrunr-testbed-scheduler-1  Recreated
+Attaching to jobrunr-testbed-scheduler-1
+jobrunr-testbed-scheduler-1  | 17:23:28.702 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v000__create_migrations_table.sql}
+jobrunr-testbed-scheduler-1  | 17:23:29.997 [main] DEBUG o.j.s.sql.common.DatabaseCreator - Trying to lock migrations table...
+jobrunr-testbed-scheduler-1  | 17:23:31.023 [main] DEBUG o.j.s.sql.common.DatabaseCreator - Successfully locked the migrations table.
+jobrunr-testbed-scheduler-1  | 17:23:31.129 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/mysql/migrations/v001__create_job_table.sql}
+jobrunr-testbed-scheduler-1  | 17:23:33.334 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v002__create_recurring_job_table.sql}
+jobrunr-testbed-scheduler-1  | 17:23:34.685 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/mysql/migrations/v003__create_background_job_server_table.sql}
+jobrunr-testbed-scheduler-1  | 17:23:36.040 [pool-1-thread-1] DEBUG o.j.s.sql.common.DatabaseCreator - Updating lock on migrations table...
+jobrunr-testbed-scheduler-1  | 17:23:36.307 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v004__create_job_stats_view.sql}
+jobrunr-testbed-scheduler-1  | 17:23:38.778 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v005__update_job_stats_view.sql}
+jobrunr-testbed-scheduler-1  | 17:23:40.219 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v006__alter_table_jobs_add_recurringjob.sql}
+jobrunr-testbed-scheduler-1  | 17:23:41.040 [pool-1-thread-1] DEBUG o.j.s.sql.common.DatabaseCreator - Updating lock on migrations table...
+jobrunr-testbed-scheduler-1  | 17:23:41.668 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v007__alter_table_backgroundjobserver_add_delete_config.sql}
+jobrunr-testbed-scheduler-1  | 17:23:43.130 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/mysql/migrations/v008__alter_table_jobs_increase_jobAsJson_size.sql}
+jobrunr-testbed-scheduler-1  | 17:23:44.453 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/mysql/migrations/v009__change_jobrunr_job_counters_to_jobrunr_metadata.sql}
+jobrunr-testbed-scheduler-1  | 17:23:46.036 [pool-1-thread-1] DEBUG o.j.s.sql.common.DatabaseCreator - Updating lock on migrations table...
+jobrunr-testbed-scheduler-1  | 17:23:46.437 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v010__change_job_stats.sql}
+jobrunr-testbed-scheduler-1  | 17:23:47.872 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v011__change_sqlserver_text_to_varchar.sql}
+jobrunr-testbed-scheduler-1  | 17:23:49.230 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v012__change_oracle_alter_jobrunr_metadata_column_size.sql}
+jobrunr-testbed-scheduler-1  | 17:23:50.331 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v013__alter_table_recurring_job_add_createdAt.sql}
+jobrunr-testbed-scheduler-1  | 17:23:51.039 [pool-1-thread-1] DEBUG o.j.s.sql.common.DatabaseCreator - Updating lock on migrations table...
+jobrunr-testbed-scheduler-1  | 17:23:51.793 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/mysql/migrations/v014__improve_job_stats.sql}
+jobrunr-testbed-scheduler-1  | 17:23:53.593 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v015__alter_table_backgroundjobserver_add_name.sql}
+jobrunr-testbed-scheduler-1  | 17:23:54.855 [main] DEBUG o.j.s.sql.common.DatabaseCreator - Removing lock on migrations table...
+jobrunr-testbed-scheduler-1  | 17:23:55.784 [main] DEBUG o.j.s.sql.common.DatabaseCreator - The lock has been removed from migrations table.
+jobrunr-testbed-scheduler-1  | Scheduling job 0 : jobrunr-testbed-sf-weather-b81b65c9-73db-4c08-8235-b8a7ccca2a0a @ 25 17 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 1 : jobrunr-testbed-sf-weather-0cd8c2a2-34a9-48bf-b201-d4f5c878c9cb @ 25 17 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 2 : jobrunr-testbed-sf-weather-0d8c930b-c3de-4453-a434-ae1c2ff710f9 @ 26 17 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 3 : jobrunr-testbed-sf-weather-2f931d1c-1499-4b3d-a7e9-5224a0977855 @ 26 17 * * *
+jobrunr-testbed-scheduler-1  | ✅ Scheduling recurring job DONE
+jobrunr-testbed-scheduler-1  | Scheduling job 0 : e1079c86-9d46-47d7-bd5e-018a8f861af7 @ 2025-05-08T00:26:00.936718800Z[UTC]
+jobrunr-testbed-scheduler-1  | 17:24:02.056 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id e1079c86-9d46-47d7-bd5e-018a8f861af7
+jobrunr-testbed-scheduler-1  | Scheduling job 1 : b113c64c-d2aa-40a4-b34d-03a61bc6ae2f @ 2025-05-08T00:26:00.936718800Z[UTC]
+jobrunr-testbed-scheduler-1  | 17:24:03.150 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id b113c64c-d2aa-40a4-b34d-03a61bc6ae2f
+jobrunr-testbed-scheduler-1  | Scheduling job 2 : d575dbd2-ff52-4263-a3e3-9a3aef2f79c1 @ 2025-05-08T00:27:00.936718800Z[UTC]
+jobrunr-testbed-scheduler-1  | 17:24:04.239 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id d575dbd2-ff52-4263-a3e3-9a3aef2f79c1
+jobrunr-testbed-scheduler-1  | Scheduling job 3 : f3ae9578-9684-4725-96b7-84ed9e534bff @ 2025-05-08T00:27:00.936718800Z[UTC]
+jobrunr-testbed-scheduler-1  | 17:24:05.337 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id f3ae9578-9684-4725-96b7-84ed9e534bff
+jobrunr-testbed-scheduler-1  | ✅ Scheduling onetime job DONE 
+[Kjobrunr-testbed-scheduler-1 exited with code 0
+Aborting on container exit...
+ Container scheduler-jobrunr-testbed-scheduler-1  Stopping
+ Container scheduler-jobrunr-testbed-scheduler-1  Stopped

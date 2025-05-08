@@ -1,0 +1,224 @@
+ Container worker-jobrunr-testbed-worker-3  Recreate
+ Container worker-jobrunr-testbed-worker-5  Recreate
+ Container worker-jobrunr-testbed-worker-1  Recreate
+ Container worker-jobrunr-testbed-worker-2  Recreate
+ Container worker-jobrunr-testbed-worker-4  Recreate
+ Container worker-jobrunr-testbed-worker-5  Recreated
+ Container worker-jobrunr-testbed-worker-2  Recreated
+ Container worker-jobrunr-testbed-worker-3  Recreated
+ Container worker-jobrunr-testbed-worker-1  Recreated
+ Container worker-jobrunr-testbed-worker-4  Recreated
+Attaching to jobrunr-testbed-worker-1, jobrunr-testbed-worker-2, jobrunr-testbed-worker-3, jobrunr-testbed-worker-4, jobrunr-testbed-worker-5
+jobrunr-testbed-worker-1  | 17:24:22.754 [main] DEBUG o.j.s.sql.common.DatabaseCreator - No migrations to run.
+jobrunr-testbed-worker-3  | 17:24:22.769 [main] DEBUG o.j.s.sql.common.DatabaseCreator - No migrations to run.
+jobrunr-testbed-worker-4  | 17:24:22.769 [main] DEBUG o.j.s.sql.common.DatabaseCreator - No migrations to run.
+jobrunr-testbed-worker-2  | 17:24:22.950 [main] DEBUG o.j.s.sql.common.DatabaseCreator - No migrations to run.
+jobrunr-testbed-worker-5  | 17:24:22.959 [main] DEBUG o.j.s.sql.common.DatabaseCreator - No migrations to run.
+jobrunr-testbed-worker-3  | 17:24:23.726 [main] INFO  o.j.s.t.PlatformThreadPoolJobRunrExecutor - ThreadManager of type 'ScheduledThreadPool' started
+jobrunr-testbed-worker-3  | 17:24:23.726 [main] INFO  o.jobrunr.server.BackgroundJobServer - Starting BackgroundJobServer with id: 
+jobrunr-testbed-worker-1  | 17:24:23.727 [main] INFO  o.j.s.t.PlatformThreadPoolJobRunrExecutor - ThreadManager of type 'ScheduledThreadPool' started
+jobrunr-testbed-worker-1  | 17:24:23.727 [main] INFO  o.jobrunr.server.BackgroundJobServer - Starting BackgroundJobServer with id: 
+jobrunr-testbed-worker-4  | 17:24:23.744 [main] INFO  o.j.s.t.PlatformThreadPoolJobRunrExecutor - ThreadManager of type 'ScheduledThreadPool' started
+jobrunr-testbed-worker-4  | 17:24:23.745 [main] INFO  o.jobrunr.server.BackgroundJobServer - Starting BackgroundJobServer with id: 
+jobrunr-testbed-worker-5  | 17:24:23.908 [main] INFO  o.j.s.t.PlatformThreadPoolJobRunrExecutor - ThreadManager of type 'ScheduledThreadPool' started
+jobrunr-testbed-worker-5  | 17:24:23.908 [main] INFO  o.jobrunr.server.BackgroundJobServer - Starting BackgroundJobServer with id: 
+jobrunr-testbed-worker-2  | 17:24:23.915 [main] INFO  o.j.s.t.PlatformThreadPoolJobRunrExecutor - ThreadManager of type 'ScheduledThreadPool' started
+jobrunr-testbed-worker-2  | 17:24:23.915 [main] INFO  o.jobrunr.server.BackgroundJobServer - Starting BackgroundJobServer with id: 
+jobrunr-testbed-worker-3  | 17:24:25.799 [backgroundjob-zookeeper-pool-1-thread-1] INFO  o.jobrunr.server.BackgroundJobServer - JobRunr BackgroundJobServer (958ee743-5090-490c-a5b3-a0158730dc5e) using MySqlStorageProvider and 112 BackgroundJobPerformers started successfully
+jobrunr-testbed-worker-3  | 17:24:25.806 [backgroundjob-zookeeper-pool-1-thread-1] INFO  org.jobrunr.server.ServerZooKeeper - [ MASTER 👑] - Server 958ee743-5090-490c-a5b3-a0158730dc5e is master (this BackgroundJobServer)
+jobrunr-testbed-worker-5  | 17:24:25.934 [backgroundjob-zookeeper-pool-1-thread-1] INFO  o.jobrunr.server.BackgroundJobServer - JobRunr BackgroundJobServer (e53d6f0f-07b1-4628-aec2-9b5d3aea87b7) using MySqlStorageProvider and 112 BackgroundJobPerformers started successfully
+jobrunr-testbed-worker-5  | 17:24:25.934 [backgroundjob-zookeeper-pool-1-thread-1] INFO  org.jobrunr.server.ServerZooKeeper - Server 958ee743-5090-490c-a5b3-a0158730dc5e is master (another BackgroundJobServer)
+jobrunr-testbed-worker-2  | 17:24:25.936 [backgroundjob-zookeeper-pool-1-thread-1] INFO  o.jobrunr.server.BackgroundJobServer - JobRunr BackgroundJobServer (167f5255-7261-4f9d-ada4-7c7f9c358f3c) using MySqlStorageProvider and 112 BackgroundJobPerformers started successfully
+jobrunr-testbed-worker-2  | 17:24:25.936 [backgroundjob-zookeeper-pool-1-thread-1] INFO  org.jobrunr.server.ServerZooKeeper - Server 958ee743-5090-490c-a5b3-a0158730dc5e is master (another BackgroundJobServer)
+jobrunr-testbed-worker-4  | 17:24:26.992 [backgroundjob-zookeeper-pool-1-thread-1] INFO  o.jobrunr.server.BackgroundJobServer - JobRunr BackgroundJobServer (16432e9a-1408-4966-9669-c5cb140376ee) using MySqlStorageProvider and 112 BackgroundJobPerformers started successfully
+jobrunr-testbed-worker-4  | 17:24:26.993 [backgroundjob-zookeeper-pool-1-thread-1] INFO  org.jobrunr.server.ServerZooKeeper - Server 958ee743-5090-490c-a5b3-a0158730dc5e is master (another BackgroundJobServer)
+jobrunr-testbed-worker-1  | 17:24:27.271 [backgroundjob-zookeeper-pool-1-thread-1] INFO  o.jobrunr.server.BackgroundJobServer - JobRunr BackgroundJobServer (22fe7794-5580-41e1-9652-c2e51cb90414) using MySqlStorageProvider and 112 BackgroundJobPerformers started successfully
+jobrunr-testbed-worker-1  | 17:24:27.271 [backgroundjob-zookeeper-pool-1-thread-1] INFO  org.jobrunr.server.ServerZooKeeper - Server 958ee743-5090-490c-a5b3-a0158730dc5e is master (another BackgroundJobServer)
+jobrunr-testbed-worker-3  | 17:24:30.460 [pool-3-thread-1] INFO  o.j.s.t.s.MigrateFromV5toV6Task - Start migration of scheduled jobs from v5 to v6
+jobrunr-testbed-worker-3  | 17:24:32.179 [pool-3-thread-1] INFO  o.j.s.t.s.MigrateFromV5toV6Task - Found 4 scheduled jobs to migrate.
+jobrunr-testbed-worker-3  | 17:24:36.921 [pool-3-thread-1] INFO  o.j.s.s.c.DefaultSqlStorageProvider - Inserted: 4 jobs in: 460ms
+jobrunr-testbed-worker-3  | 17:24:37.089 [pool-3-thread-1] INFO  o.j.s.t.s.MigrateFromV5toV6Task - Finished migration of scheduled jobs from v5 to v6
+jobrunr-testbed-worker-3  | 17:24:40.560 [backgroundjob-zookeeper-pool-1-thread-5] DEBUG o.j.s.t.s.UpdateJobsInProgressTask - Updating currently processed jobs... 
+jobrunr-testbed-worker-3  | 17:24:40.561 [backgroundjob-zookeeper-pool-1-thread-5] DEBUG o.j.s.s.BasicWorkDistributionStrategy - Can onboard 112 new work (occupiedWorkerCount = 0; workerCount = 112).
+jobrunr-testbed-worker-1  | 17:24:40.587 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.t.s.UpdateJobsInProgressTask - Updating currently processed jobs... 
+jobrunr-testbed-worker-1  | 17:24:40.588 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.s.BasicWorkDistributionStrategy - Can onboard 112 new work (occupiedWorkerCount = 0; workerCount = 112).
+jobrunr-testbed-worker-4  | 17:24:40.601 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.t.s.UpdateJobsInProgressTask - Updating currently processed jobs... 
+jobrunr-testbed-worker-4  | 17:24:40.602 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.s.BasicWorkDistributionStrategy - Can onboard 112 new work (occupiedWorkerCount = 0; workerCount = 112).
+jobrunr-testbed-worker-2  | 17:24:40.775 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.t.s.UpdateJobsInProgressTask - Updating currently processed jobs... 
+jobrunr-testbed-worker-2  | 17:24:40.777 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.s.BasicWorkDistributionStrategy - Can onboard 112 new work (occupiedWorkerCount = 0; workerCount = 112).
+jobrunr-testbed-worker-5  | 17:24:40.783 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.t.s.UpdateJobsInProgressTask - Updating currently processed jobs... 
+jobrunr-testbed-worker-5  | 17:24:40.784 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.s.BasicWorkDistributionStrategy - Can onboard 112 new work (occupiedWorkerCount = 0; workerCount = 112).
+jobrunr-testbed-worker-3  | 17:24:41.672 [backgroundjob-zookeeper-pool-1-thread-5] DEBUG o.j.s.t.steward.OnboardNewWorkTask - Found 0 enqueued jobs to process.
+jobrunr-testbed-worker-3  | 17:24:41.672 [backgroundjob-zookeeper-pool-1-thread-5] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.113200819S
+jobrunr-testbed-worker-1  | 17:24:41.678 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.t.steward.OnboardNewWorkTask - Found 0 enqueued jobs to process.
+jobrunr-testbed-worker-1  | 17:24:41.678 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.091412986S
+jobrunr-testbed-worker-4  | 17:24:41.705 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.t.steward.OnboardNewWorkTask - Found 0 enqueued jobs to process.
+jobrunr-testbed-worker-4  | 17:24:41.705 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.10543632S
+jobrunr-testbed-worker-5  | 17:24:41.874 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.t.steward.OnboardNewWorkTask - Found 0 enqueued jobs to process.
+jobrunr-testbed-worker-5  | 17:24:41.874 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.092759319S
+jobrunr-testbed-worker-2  | 17:24:41.881 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.t.steward.OnboardNewWorkTask - Found 0 enqueued jobs to process.
+jobrunr-testbed-worker-2  | 17:24:41.883 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.110009319S
+jobrunr-testbed-worker-3  | 17:24:42.664 [backgroundjob-zookeeper-pool-1-thread-2] INFO  o.j.s.t.z.ProcessRecurringJobsTask - [FLUXCAPACITOR]: This instance was not the master instance. Looks like a crash happened. Let's go back in time.
+jobrunr-testbed-worker-3  | 17:24:43.519 [backgroundjob-zookeeper-pool-1-thread-2] WARN  o.j.s.s.c.DefaultSqlStorageProvider - No SUCCEEDED jobs found in jobrunr_jobs.
+jobrunr-testbed-worker-3  | 17:24:43.519 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.s.t.z.DeleteSucceededJobsTask - Found 0 succeeded jobs that moved to DELETED state as part of JobRunr maintenance
+jobrunr-testbed-worker-3  | 17:24:43.519 [backgroundjob-zookeeper-pool-1-thread-2] INFO  o.j.s.t.z.ProcessRecurringJobsTask - [FLUXCAPACITOR]: Initial start time: 2025-05-08T00:24:42.663873542Z
+jobrunr-testbed-worker-3  | 17:24:43.520 [backgroundjob-zookeeper-pool-1-thread-2] INFO  o.j.s.t.z.ProcessRecurringJobsTask - [FLUXCAPACITOR]: Last success time: 1970-01-01T00:00:00Z
+jobrunr-testbed-worker-3  | 17:24:43.520 [backgroundjob-zookeeper-pool-1-thread-2] INFO  o.j.s.t.z.ProcessRecurringJobsTask - [FLUXCAPACITOR]: One minute ago: 2025-05-08T00:23:42.663873542Z
+jobrunr-testbed-worker-3  | 17:24:43.520 [backgroundjob-zookeeper-pool-1-thread-2] INFO  o.j.s.t.z.ProcessRecurringJobsTask - [FLUXCAPACITOR]: Time travelling to: 2025-05-08T00:23:42.663873542Z
+jobrunr-testbed-worker-3  | 17:24:43.520 [backgroundjob-zookeeper-pool-1-thread-2] INFO  o.j.s.t.z.ProcessRecurringJobsTask - [BOOTUP]: Boot up time, fetching all recurring jobs.
+jobrunr-testbed-worker-3  | 17:24:43.527 [backgroundjob-zookeeper-pool-1-thread-3] DEBUG o.j.s.t.z.ProcessOrphanedJobsTask - Found 0 orphan jobs.
+jobrunr-testbed-worker-3  | 17:24:43.527 [backgroundjob-zookeeper-pool-1-thread-3] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT0.874366959S
+jobrunr-testbed-worker-3  | 17:24:44.392 [backgroundjob-zookeeper-pool-1-thread-2] INFO  o.j.s.t.z.ProcessRecurringJobsTask - [BOOTUP]: First time fetch duration: 872ms
+jobrunr-testbed-worker-3  | 17:24:44.393 [backgroundjob-zookeeper-pool-1-thread-2] INFO  o.j.s.t.z.ProcessRecurringJobsTask - [BOOTUP]: First time fetch size: 4
+jobrunr-testbed-worker-3  | 17:24:44.636 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.s.t.z.DeleteDeletedJobsPermanentlyTask - Found 0 deleted jobs that were permanently deleted as part of JobRunr maintenance
+jobrunr-testbed-worker-3  | 17:24:44.636 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.984087667S
+jobrunr-testbed-worker-3  | 17:24:45.241 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.t.z.ProcessRecurringJobsTask - Found 0 jobs to schedule from 4 recurring jobs
+jobrunr-testbed-worker-3  | 17:24:45.242 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.t.z.ProcessScheduledJobsTask - Looking for scheduled jobs... 
+jobrunr-testbed-worker-3  | 17:24:46.100 [backgroundjob-zookeeper-pool-1-thread-2] INFO  o.j.s.t.z.ProcessScheduledJobsTask - Fetched 0 scheduled jobs.
+jobrunr-testbed-worker-3  | 17:24:46.101 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.t.z.ProcessScheduledJobsTask - Found 0 scheduled jobs to enqueue.
+jobrunr-testbed-worker-3  | 17:24:46.101 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT3.437751918S
+jobrunr-testbed-worker-3  | 17:24:56.677 [backgroundjob-zookeeper-pool-1-thread-5] DEBUG o.j.s.t.s.UpdateJobsInProgressTask - Updating currently processed jobs... 
+jobrunr-testbed-worker-3  | 17:24:56.678 [backgroundjob-zookeeper-pool-1-thread-5] DEBUG o.j.s.s.BasicWorkDistributionStrategy - Can onboard 112 new work (occupiedWorkerCount = 0; workerCount = 112).
+jobrunr-testbed-worker-1  | 17:24:56.685 [backgroundjob-zookeeper-pool-1-thread-1] DEBUG o.j.s.t.s.UpdateJobsInProgressTask - Updating currently processed jobs... 
+jobrunr-testbed-worker-1  | 17:24:56.687 [backgroundjob-zookeeper-pool-1-thread-1] DEBUG o.j.s.s.BasicWorkDistributionStrategy - Can onboard 112 new work (occupiedWorkerCount = 0; workerCount = 112).
+jobrunr-testbed-worker-4  | 17:24:56.707 [backgroundjob-zookeeper-pool-1-thread-1] DEBUG o.j.s.t.s.UpdateJobsInProgressTask - Updating currently processed jobs... 
+jobrunr-testbed-worker-4  | 17:24:56.708 [backgroundjob-zookeeper-pool-1-thread-1] DEBUG o.j.s.s.BasicWorkDistributionStrategy - Can onboard 112 new work (occupiedWorkerCount = 0; workerCount = 112).
+jobrunr-testbed-worker-5  | 17:24:56.875 [backgroundjob-zookeeper-pool-1-thread-1] DEBUG o.j.s.t.s.UpdateJobsInProgressTask - Updating currently processed jobs... 
+jobrunr-testbed-worker-5  | 17:24:56.876 [backgroundjob-zookeeper-pool-1-thread-1] DEBUG o.j.s.s.BasicWorkDistributionStrategy - Can onboard 112 new work (occupiedWorkerCount = 0; workerCount = 112).
+jobrunr-testbed-worker-2  | 17:24:56.887 [backgroundjob-zookeeper-pool-1-thread-1] DEBUG o.j.s.t.s.UpdateJobsInProgressTask - Updating currently processed jobs... 
+jobrunr-testbed-worker-2  | 17:24:56.888 [backgroundjob-zookeeper-pool-1-thread-1] DEBUG o.j.s.s.BasicWorkDistributionStrategy - Can onboard 112 new work (occupiedWorkerCount = 0; workerCount = 112).
+jobrunr-testbed-worker-3  | 17:24:57.768 [backgroundjob-zookeeper-pool-1-thread-5] DEBUG o.j.s.t.steward.OnboardNewWorkTask - Found 0 enqueued jobs to process.
+jobrunr-testbed-worker-1  | 17:24:57.769 [backgroundjob-zookeeper-pool-1-thread-1] DEBUG o.j.s.t.steward.OnboardNewWorkTask - Found 0 enqueued jobs to process.
+jobrunr-testbed-worker-1  | 17:24:57.769 [backgroundjob-zookeeper-pool-1-thread-1] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.085010834S
+jobrunr-testbed-worker-3  | 17:24:57.768 [backgroundjob-zookeeper-pool-1-thread-5] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.092621292S
+jobrunr-testbed-worker-4  | 17:24:57.803 [backgroundjob-zookeeper-pool-1-thread-1] DEBUG o.j.s.t.steward.OnboardNewWorkTask - Found 0 enqueued jobs to process.
+jobrunr-testbed-worker-4  | 17:24:57.803 [backgroundjob-zookeeper-pool-1-thread-1] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.096555501S
+jobrunr-testbed-worker-5  | 17:24:57.969 [backgroundjob-zookeeper-pool-1-thread-1] DEBUG o.j.s.t.steward.OnboardNewWorkTask - Found 0 enqueued jobs to process.
+jobrunr-testbed-worker-5  | 17:24:57.969 [backgroundjob-zookeeper-pool-1-thread-1] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.094231001S
+jobrunr-testbed-worker-2  | 17:24:57.969 [backgroundjob-zookeeper-pool-1-thread-1] DEBUG o.j.s.t.steward.OnboardNewWorkTask - Found 0 enqueued jobs to process.
+jobrunr-testbed-worker-2  | 17:24:57.969 [backgroundjob-zookeeper-pool-1-thread-1] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.082036958S
+jobrunr-testbed-worker-3  | 17:24:59.389 [backgroundjob-zookeeper-pool-1-thread-3] DEBUG o.j.s.t.z.ProcessOrphanedJobsTask - Found 0 orphan jobs.
+jobrunr-testbed-worker-3  | 17:24:59.389 [backgroundjob-zookeeper-pool-1-thread-3] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT0.860200917S
+jobrunr-testbed-worker-3  | 17:25:00.494 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.s.t.z.DeleteSucceededJobsTask - Found 0 succeeded jobs that moved to DELETED state as part of JobRunr maintenance
+jobrunr-testbed-worker-3  | 17:25:01.557 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.s.t.z.DeleteDeletedJobsPermanentlyTask - Found 0 deleted jobs that were permanently deleted as part of JobRunr maintenance
+jobrunr-testbed-worker-3  | 17:25:01.558 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.919712292S
+jobrunr-testbed-worker-3  | 17:25:01.975 [backgroundjob-zookeeper-pool-1-thread-2] INFO  o.j.s.t.z.ProcessRecurringJobsTask - [RECURRINGJOBHASH]: Recurring jobs have not been updated in the database. We can use the cached jobs.
+jobrunr-testbed-worker-3  | 17:25:02.836 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.t.z.ProcessRecurringJobsTask - [jobrunr-testbed-sf-weather-b81b65c9-73db-4c08-8235-b8a7ccca2a0a]: Recurring job com.example.GetWeather.fetchSanFranciscoWeather() resulted in 1 scheduled job.
+jobrunr-testbed-worker-3  | 17:25:02.837 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.t.z.ProcessRecurringJobsTask - [jobrunr-testbed-sf-weather-0cd8c2a2-34a9-48bf-b201-d4f5c878c9cb]: Recurring job com.example.GetWeather.fetchSanFranciscoWeather() resulted in 1 scheduled job.
+jobrunr-testbed-worker-3  | 17:25:03.901 [backgroundjob-zookeeper-pool-1-thread-2] INFO  o.j.s.s.c.DefaultSqlStorageProvider - Inserted: 2 jobs in: 201ms
+jobrunr-testbed-worker-3  | 17:25:04.071 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.t.z.ProcessRecurringJobsTask - Found 2 jobs to schedule from 4 recurring jobs
+jobrunr-testbed-worker-3  | 17:25:04.072 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.t.z.ProcessScheduledJobsTask - Looking for scheduled jobs... 
+jobrunr-testbed-worker-3  | 17:25:04.928 [backgroundjob-zookeeper-pool-1-thread-2] INFO  o.j.s.t.z.ProcessScheduledJobsTask - Fetched 2 scheduled jobs.
+jobrunr-testbed-worker-3  | 17:25:06.167 [backgroundjob-zookeeper-pool-1-thread-2] INFO  o.j.s.s.c.DefaultSqlStorageProvider - Inserted: 2 jobs in: 258ms
+jobrunr-testbed-worker-3  | 17:25:06.332 [backgroundjob-zookeeper-pool-1-thread-2] INFO  o.j.s.t.z.ProcessScheduledJobsTask - Fetched 0 scheduled jobs.
+jobrunr-testbed-worker-3  | 17:25:06.332 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.t.z.ProcessScheduledJobsTask - Found 2 scheduled jobs to enqueue.
+jobrunr-testbed-worker-3  | 17:25:06.332 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT5.226704586S
+jobrunr-testbed-worker-3  | 17:25:12.778 [backgroundjob-zookeeper-pool-1-thread-5] DEBUG o.j.s.t.s.UpdateJobsInProgressTask - Updating currently processed jobs... 
+jobrunr-testbed-worker-3  | 17:25:12.782 [backgroundjob-zookeeper-pool-1-thread-5] DEBUG o.j.s.s.BasicWorkDistributionStrategy - Can onboard 112 new work (occupiedWorkerCount = 0; workerCount = 112).
+jobrunr-testbed-worker-1  | 17:25:12.782 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.t.s.UpdateJobsInProgressTask - Updating currently processed jobs... 
+jobrunr-testbed-worker-1  | 17:25:12.787 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.s.BasicWorkDistributionStrategy - Can onboard 112 new work (occupiedWorkerCount = 0; workerCount = 112).
+jobrunr-testbed-worker-4  | 17:25:12.808 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.t.s.UpdateJobsInProgressTask - Updating currently processed jobs... 
+jobrunr-testbed-worker-4  | 17:25:12.811 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.s.BasicWorkDistributionStrategy - Can onboard 112 new work (occupiedWorkerCount = 0; workerCount = 112).
+jobrunr-testbed-worker-2  | 17:25:12.975 [backgroundjob-zookeeper-pool-1-thread-1] DEBUG o.j.s.t.s.UpdateJobsInProgressTask - Updating currently processed jobs... 
+jobrunr-testbed-worker-2  | 17:25:12.977 [backgroundjob-zookeeper-pool-1-thread-1] DEBUG o.j.s.s.BasicWorkDistributionStrategy - Can onboard 112 new work (occupiedWorkerCount = 0; workerCount = 112).
+jobrunr-testbed-worker-5  | 17:25:12.976 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.s.t.s.UpdateJobsInProgressTask - Updating currently processed jobs... 
+jobrunr-testbed-worker-5  | 17:25:12.978 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.s.s.BasicWorkDistributionStrategy - Can onboard 112 new work (occupiedWorkerCount = 0; workerCount = 112).
+jobrunr-testbed-worker-1  | 17:25:13.988 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.t.steward.OnboardNewWorkTask - Found 0 enqueued jobs to process.
+jobrunr-testbed-worker-1  | 17:25:13.989 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.212012459S
+jobrunr-testbed-worker-4  | 17:25:13.995 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.t.steward.OnboardNewWorkTask - Found 0 enqueued jobs to process.
+jobrunr-testbed-worker-4  | 17:25:13.995 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.188390125S
+jobrunr-testbed-worker-2  | 17:25:14.084 [backgroundjob-zookeeper-pool-1-thread-1] DEBUG o.j.s.t.steward.OnboardNewWorkTask - Found 0 enqueued jobs to process.
+jobrunr-testbed-worker-2  | 17:25:14.085 [backgroundjob-zookeeper-pool-1-thread-1] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.111644167S
+jobrunr-testbed-worker-5  | 17:25:14.083 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.s.t.steward.OnboardNewWorkTask - Found 0 enqueued jobs to process.
+jobrunr-testbed-worker-5  | 17:25:14.084 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.109691417S
+jobrunr-testbed-worker-3  | 17:25:14.244 [backgroundjob-zookeeper-pool-1-thread-5] DEBUG o.jobrunr.server.BackgroundJobServer - [Optional[jobrunr-testbed-sf-weather-b81b65c9-73db-4c08-8235-b8a7ccca2a0a]] : Submitted BackgroundJobPerformer for job 0196ad48-0e74-7adb-a2da-2bf5a3095686 to executor service
+jobrunr-testbed-worker-3  | 17:25:14.245 [backgroundjob-zookeeper-pool-1-thread-5] DEBUG o.jobrunr.server.BackgroundJobServer - [Optional[jobrunr-testbed-sf-weather-0cd8c2a2-34a9-48bf-b201-d4f5c878c9cb]] : Submitted BackgroundJobPerformer for job 0196ad48-0e75-755d-abe0-b3c15e49eb78 to executor service
+jobrunr-testbed-worker-3  | 17:25:14.245 [backgroundjob-zookeeper-pool-1-thread-5] DEBUG o.j.s.t.steward.OnboardNewWorkTask - Found 2 enqueued jobs to process.
+jobrunr-testbed-worker-3  | 17:25:14.245 [backgroundjob-zookeeper-pool-1-thread-5] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.468819168S
+jobrunr-testbed-worker-3  | Skipping weather fetch due to random chance: 0.788675500997102
+jobrunr-testbed-worker-3  | San Francisco Weather: Sunny at 2025-05-07T17:25:14.568362751-07:00[America/Los_Angeles]
+jobrunr-testbed-worker-3  | 17:25:14.568 [backgroundjob-worker-pool-2-thread-2] DEBUG o.j.server.BackgroundJobPerformer - Job(id=0196ad48-0e75-755d-abe0-b3c15e49eb78, recurringJobId=Optional[jobrunr-testbed-sf-weather-0cd8c2a2-34a9-48bf-b201-d4f5c878c9cb], jobName='com.example.GetWeather.fetchSanFranciscoWeather()') processing succeeded
+jobrunr-testbed-worker-3  | 17:25:15.234 [backgroundjob-zookeeper-pool-1-thread-3] DEBUG o.j.s.t.z.ProcessOrphanedJobsTask - Found 0 orphan jobs.
+jobrunr-testbed-worker-3  | 17:25:15.235 [backgroundjob-zookeeper-pool-1-thread-3] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT0.844934584S
+jobrunr-testbed-worker-3  | 17:25:15.658 [backgroundjob-worker-pool-2-thread-2] DEBUG o.j.s.s.BasicWorkDistributionStrategy - Can onboard 111 new work (occupiedWorkerCount = 1; workerCount = 112).
+jobrunr-testbed-worker-3  | 17:25:16.737 [backgroundjob-worker-pool-2-thread-2] DEBUG o.j.s.t.steward.OnboardNewWorkTask - Found 0 enqueued jobs to process.
+jobrunr-testbed-worker-3  | 17:25:17.265 [backgroundjob-worker-pool-2-thread-1] DEBUG o.j.server.BackgroundJobPerformer - Job(id=0196ad48-0e74-7adb-a2da-2bf5a3095686, recurringJobId=Optional[jobrunr-testbed-sf-weather-b81b65c9-73db-4c08-8235-b8a7ccca2a0a], jobName='com.example.GetWeather.fetchSanFranciscoWeather()') processing succeeded
+jobrunr-testbed-worker-3  | 17:25:17.428 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.s.t.z.DeleteSucceededJobsTask - Found 0 succeeded jobs that moved to DELETED state as part of JobRunr maintenance
+jobrunr-testbed-worker-3  | 17:25:18.369 [backgroundjob-worker-pool-2-thread-1] DEBUG o.j.s.s.BasicWorkDistributionStrategy - Can onboard 112 new work (occupiedWorkerCount = 0; workerCount = 112).
+jobrunr-testbed-worker-3  | 17:25:18.518 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.s.t.z.DeleteDeletedJobsPermanentlyTask - Found 0 deleted jobs that were permanently deleted as part of JobRunr maintenance
+jobrunr-testbed-worker-3  | 17:25:18.518 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.957418168S
+jobrunr-testbed-worker-3  | 17:25:19.468 [backgroundjob-worker-pool-2-thread-1] DEBUG o.j.s.t.steward.OnboardNewWorkTask - Found 0 enqueued jobs to process.
+jobrunr-testbed-worker-3  | 17:25:22.176 [backgroundjob-zookeeper-pool-1-thread-2] INFO  o.j.s.t.z.ProcessRecurringJobsTask - [RECURRINGJOBHASH]: Recurring jobs have not been updated in the database. We can use the cached jobs.
+jobrunr-testbed-worker-3  | 17:25:23.027 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.t.z.ProcessRecurringJobsTask - Found 0 jobs to schedule from 4 recurring jobs
+jobrunr-testbed-worker-3  | 17:25:23.028 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.t.z.ProcessScheduledJobsTask - Looking for scheduled jobs... 
+jobrunr-testbed-worker-3  | 17:25:23.898 [backgroundjob-zookeeper-pool-1-thread-2] INFO  o.j.s.t.z.ProcessScheduledJobsTask - Fetched 0 scheduled jobs.
+jobrunr-testbed-worker-3  | 17:25:23.898 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.t.z.ProcessScheduledJobsTask - Found 0 scheduled jobs to enqueue.
+jobrunr-testbed-worker-3  | 17:25:23.898 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT2.563399209S
+jobrunr-testbed-worker-1  | 17:25:28.995 [backgroundjob-zookeeper-pool-1-thread-3] DEBUG o.j.s.t.s.UpdateJobsInProgressTask - Updating currently processed jobs... 
+jobrunr-testbed-worker-1  | 17:25:28.996 [backgroundjob-zookeeper-pool-1-thread-3] DEBUG o.j.s.s.BasicWorkDistributionStrategy - Can onboard 112 new work (occupiedWorkerCount = 0; workerCount = 112).
+jobrunr-testbed-worker-4  | 17:25:28.997 [backgroundjob-zookeeper-pool-1-thread-3] DEBUG o.j.s.t.s.UpdateJobsInProgressTask - Updating currently processed jobs... 
+jobrunr-testbed-worker-4  | 17:25:28.998 [backgroundjob-zookeeper-pool-1-thread-3] DEBUG o.j.s.s.BasicWorkDistributionStrategy - Can onboard 112 new work (occupiedWorkerCount = 0; workerCount = 112).
+jobrunr-testbed-worker-5  | 17:25:29.086 [backgroundjob-zookeeper-pool-1-thread-5] DEBUG o.j.s.t.s.UpdateJobsInProgressTask - Updating currently processed jobs... 
+jobrunr-testbed-worker-5  | 17:25:29.086 [backgroundjob-zookeeper-pool-1-thread-5] DEBUG o.j.s.s.BasicWorkDistributionStrategy - Can onboard 112 new work (occupiedWorkerCount = 0; workerCount = 112).
+jobrunr-testbed-worker-2  | 17:25:29.088 [backgroundjob-zookeeper-pool-1-thread-3] DEBUG o.j.s.t.s.UpdateJobsInProgressTask - Updating currently processed jobs... 
+jobrunr-testbed-worker-2  | 17:25:29.089 [backgroundjob-zookeeper-pool-1-thread-3] DEBUG o.j.s.s.BasicWorkDistributionStrategy - Can onboard 112 new work (occupiedWorkerCount = 0; workerCount = 112).
+jobrunr-testbed-worker-3  | 17:25:29.248 [backgroundjob-zookeeper-pool-1-thread-5] DEBUG o.j.s.t.s.UpdateJobsInProgressTask - Updating currently processed jobs... 
+jobrunr-testbed-worker-3  | 17:25:29.248 [backgroundjob-zookeeper-pool-1-thread-5] DEBUG o.j.s.s.BasicWorkDistributionStrategy - Can onboard 112 new work (occupiedWorkerCount = 0; workerCount = 112).
+jobrunr-testbed-worker-4  | 17:25:30.145 [backgroundjob-zookeeper-pool-1-thread-3] DEBUG o.j.s.t.steward.OnboardNewWorkTask - Found 0 enqueued jobs to process.
+jobrunr-testbed-worker-4  | 17:25:30.146 [backgroundjob-zookeeper-pool-1-thread-3] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.149113584S
+jobrunr-testbed-worker-1  | 17:25:30.152 [backgroundjob-zookeeper-pool-1-thread-3] DEBUG o.j.s.t.steward.OnboardNewWorkTask - Found 0 enqueued jobs to process.
+jobrunr-testbed-worker-1  | 17:25:30.153 [backgroundjob-zookeeper-pool-1-thread-3] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.158668458S
+jobrunr-testbed-worker-2  | 17:25:30.259 [backgroundjob-zookeeper-pool-1-thread-3] DEBUG o.j.s.t.steward.OnboardNewWorkTask - Found 0 enqueued jobs to process.
+jobrunr-testbed-worker-2  | 17:25:30.260 [backgroundjob-zookeeper-pool-1-thread-3] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.171916125S
+jobrunr-testbed-worker-5  | 17:25:30.259 [backgroundjob-zookeeper-pool-1-thread-5] DEBUG o.j.s.t.steward.OnboardNewWorkTask - Found 0 enqueued jobs to process.
+jobrunr-testbed-worker-5  | 17:25:30.260 [backgroundjob-zookeeper-pool-1-thread-5] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.174615958S
+jobrunr-testbed-worker-3  | 17:25:30.355 [backgroundjob-zookeeper-pool-1-thread-5] DEBUG o.j.s.t.steward.OnboardNewWorkTask - Found 0 enqueued jobs to process.
+jobrunr-testbed-worker-3  | 17:25:30.356 [backgroundjob-zookeeper-pool-1-thread-5] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.107765917S
+jobrunr-testbed-worker-3  | 17:25:31.121 [backgroundjob-zookeeper-pool-1-thread-3] DEBUG o.j.s.t.z.ProcessOrphanedJobsTask - Found 0 orphan jobs.
+jobrunr-testbed-worker-3  | 17:25:31.122 [backgroundjob-zookeeper-pool-1-thread-3] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT0.880106209S
+jobrunr-testbed-worker-3  | 17:25:34.428 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.s.t.z.DeleteSucceededJobsTask - Found 0 succeeded jobs that moved to DELETED state as part of JobRunr maintenance
+jobrunr-testbed-worker-3  | 17:25:35.541 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.s.t.z.DeleteDeletedJobsPermanentlyTask - Found 0 deleted jobs that were permanently deleted as part of JobRunr maintenance
+jobrunr-testbed-worker-3  | 17:25:35.542 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT2.021139626S
+jobrunr-testbed-worker-3  | 17:25:39.772 [backgroundjob-zookeeper-pool-1-thread-2] INFO  o.j.s.t.z.ProcessRecurringJobsTask - [RECURRINGJOBHASH]: Recurring jobs have not been updated in the database. We can use the cached jobs.
+jobrunr-testbed-worker-3  | 17:25:40.630 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.t.z.ProcessRecurringJobsTask - Found 0 jobs to schedule from 4 recurring jobs
+jobrunr-testbed-worker-3  | 17:25:40.631 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.t.z.ProcessScheduledJobsTask - Looking for scheduled jobs... 
+jobrunr-testbed-worker-3  | 17:25:41.474 [backgroundjob-zookeeper-pool-1-thread-2] INFO  o.j.s.t.z.ProcessScheduledJobsTask - Fetched 0 scheduled jobs.
+jobrunr-testbed-worker-3  | 17:25:41.474 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.s.t.z.ProcessScheduledJobsTask - Found 0 scheduled jobs to enqueue.
+jobrunr-testbed-worker-3  | 17:25:41.474 [backgroundjob-zookeeper-pool-1-thread-2] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT2.569515071S
+jobrunr-testbed-worker-4  | 17:25:45.152 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.s.t.s.UpdateJobsInProgressTask - Updating currently processed jobs... 
+jobrunr-testbed-worker-4  | 17:25:45.155 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.s.s.BasicWorkDistributionStrategy - Can onboard 112 new work (occupiedWorkerCount = 0; workerCount = 112).
+jobrunr-testbed-worker-1  | 17:25:45.156 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.s.t.s.UpdateJobsInProgressTask - Updating currently processed jobs... 
+jobrunr-testbed-worker-1  | 17:25:45.159 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.s.s.BasicWorkDistributionStrategy - Can onboard 112 new work (occupiedWorkerCount = 0; workerCount = 112).
+jobrunr-testbed-worker-2  | 17:25:45.264 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.s.t.s.UpdateJobsInProgressTask - Updating currently processed jobs... 
+jobrunr-testbed-worker-2  | 17:25:45.267 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.s.s.BasicWorkDistributionStrategy - Can onboard 112 new work (occupiedWorkerCount = 0; workerCount = 112).
+jobrunr-testbed-worker-5  | 17:25:45.264 [backgroundjob-zookeeper-pool-1-thread-1] DEBUG o.j.s.t.s.UpdateJobsInProgressTask - Updating currently processed jobs... 
+jobrunr-testbed-worker-5  | 17:25:45.266 [backgroundjob-zookeeper-pool-1-thread-1] DEBUG o.j.s.s.BasicWorkDistributionStrategy - Can onboard 112 new work (occupiedWorkerCount = 0; workerCount = 112).
+jobrunr-testbed-worker-3  | 17:25:45.358 [backgroundjob-zookeeper-pool-1-thread-5] DEBUG o.j.s.t.s.UpdateJobsInProgressTask - Updating currently processed jobs... 
+jobrunr-testbed-worker-3  | 17:25:45.358 [backgroundjob-zookeeper-pool-1-thread-5] DEBUG o.j.s.s.BasicWorkDistributionStrategy - Can onboard 112 new work (occupiedWorkerCount = 0; workerCount = 112).
+jobrunr-testbed-worker-1  | 17:25:46.304 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.s.t.steward.OnboardNewWorkTask - Found 0 enqueued jobs to process.
+jobrunr-testbed-worker-1  | 17:25:46.305 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.150117292S
+jobrunr-testbed-worker-4  | 17:25:46.304 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.s.t.steward.OnboardNewWorkTask - Found 0 enqueued jobs to process.
+jobrunr-testbed-worker-4  | 17:25:46.305 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.153194542S
+jobrunr-testbed-worker-2  | 17:25:46.368 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.s.t.steward.OnboardNewWorkTask - Found 0 enqueued jobs to process.
+jobrunr-testbed-worker-2  | 17:25:46.368 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.104923834S
+jobrunr-testbed-worker-5  | 17:25:46.394 [backgroundjob-zookeeper-pool-1-thread-1] DEBUG o.j.s.t.steward.OnboardNewWorkTask - Found 0 enqueued jobs to process.
+jobrunr-testbed-worker-5  | 17:25:46.394 [backgroundjob-zookeeper-pool-1-thread-1] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.131316375S
+jobrunr-testbed-worker-3  | 17:25:46.455 [backgroundjob-zookeeper-pool-1-thread-5] DEBUG o.j.s.t.steward.OnboardNewWorkTask - Found 0 enqueued jobs to process.
+jobrunr-testbed-worker-3  | 17:25:46.455 [backgroundjob-zookeeper-pool-1-thread-5] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.09761375S
+jobrunr-testbed-worker-3  | 17:25:46.972 [backgroundjob-zookeeper-pool-1-thread-3] DEBUG o.j.s.t.z.ProcessOrphanedJobsTask - Found 0 orphan jobs.
+jobrunr-testbed-worker-3  | 17:25:46.972 [backgroundjob-zookeeper-pool-1-thread-3] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT0.848543459S
+jobrunr-testbed-worker-3  | 17:25:51.408 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.s.t.z.DeleteSucceededJobsTask - Found 0 succeeded jobs that moved to DELETED state as part of JobRunr maintenance
+jobrunr-testbed-worker-3  | 17:25:52.497 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.s.t.z.DeleteDeletedJobsPermanentlyTask - Found 0 deleted jobs that were permanently deleted as part of JobRunr maintenance
+jobrunr-testbed-worker-3  | 17:25:52.497 [backgroundjob-zookeeper-pool-1-thread-4] DEBUG o.j.server.tasks.TaskStatistics - JobZooKeeper run took PT1.954166584S
+Gracefully stopping... (press Ctrl+C again to force)
+ Container worker-jobrunr-testbed-worker-5  Stopping
+ Container worker-jobrunr-testbed-worker-4  Stopping
+ Container worker-jobrunr-testbed-worker-2  Stopping
+ Container worker-jobrunr-testbed-worker-1  Stopping
+ Container worker-jobrunr-testbed-worker-3  Stopping
+ Container worker-jobrunr-testbed-worker-2  Stopped
+ Container worker-jobrunr-testbed-worker-5  Stopped
+ Container worker-jobrunr-testbed-worker-4  Stopped
+ Container worker-jobrunr-testbed-worker-1  Stopped
+ Container worker-jobrunr-testbed-worker-3  Stopped
+canceled
