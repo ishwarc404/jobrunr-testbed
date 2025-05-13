@@ -22,7 +22,12 @@ echo "🧹 Clearing old logs..."
 
 echo "✅ Logs cleared!"
 
-# Step 1: Build scheduler and worker images
+export JOBRUNR_DB_URL="jdbc:mysql://host.docker.internal:3306/"
+
+# Step 1: Build db, scheduler and worker images
+echo "🔨 Building db image..."
+docker-compose -f ./docker/database/docker-compose.yml up -d
+
 echo "🔨 Building scheduler image..."
 docker-compose -f ./docker/scheduler/docker-compose.yml build --quiet
 
@@ -48,3 +53,6 @@ python3 visualise.py
 # Optional: Clean up workers when done
 echo "🧹 Cleaning up workers..."
 kill $worker_pid
+# Killing the database container
+echo "🧹 Cleaning up database..."
+docker-compose -f ./docker/database/docker-compose.yml down 

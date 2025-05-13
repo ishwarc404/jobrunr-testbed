@@ -5,7 +5,7 @@ services:
       context: .
       dockerfile: Dockerfile
     environment:
-      JOBRUNR_DB_URL: 
+      JOBRUNR_DB_URL: "jdbc:mysql://host.docker.internal:3306/"
       JOBRUNR_DB_USER: root
       JOBRUNR_DB_PASS: password
     restart: unless-stopped

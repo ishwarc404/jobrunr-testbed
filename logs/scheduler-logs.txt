@@ -1,43 +1,117 @@
  Container scheduler-jobrunr-testbed-scheduler-1  Recreate
  Container scheduler-jobrunr-testbed-scheduler-1  Recreated
 Attaching to jobrunr-testbed-scheduler-1
-jobrunr-testbed-scheduler-1  | 17:23:28.702 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v000__create_migrations_table.sql}
-jobrunr-testbed-scheduler-1  | 17:23:29.997 [main] DEBUG o.j.s.sql.common.DatabaseCreator - Trying to lock migrations table...
-jobrunr-testbed-scheduler-1  | 17:23:31.023 [main] DEBUG o.j.s.sql.common.DatabaseCreator - Successfully locked the migrations table.
-jobrunr-testbed-scheduler-1  | 17:23:31.129 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/mysql/migrations/v001__create_job_table.sql}
-jobrunr-testbed-scheduler-1  | 17:23:33.334 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v002__create_recurring_job_table.sql}
-jobrunr-testbed-scheduler-1  | 17:23:34.685 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/mysql/migrations/v003__create_background_job_server_table.sql}
-jobrunr-testbed-scheduler-1  | 17:23:36.040 [pool-1-thread-1] DEBUG o.j.s.sql.common.DatabaseCreator - Updating lock on migrations table...
-jobrunr-testbed-scheduler-1  | 17:23:36.307 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v004__create_job_stats_view.sql}
-jobrunr-testbed-scheduler-1  | 17:23:38.778 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v005__update_job_stats_view.sql}
-jobrunr-testbed-scheduler-1  | 17:23:40.219 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v006__alter_table_jobs_add_recurringjob.sql}
-jobrunr-testbed-scheduler-1  | 17:23:41.040 [pool-1-thread-1] DEBUG o.j.s.sql.common.DatabaseCreator - Updating lock on migrations table...
-jobrunr-testbed-scheduler-1  | 17:23:41.668 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v007__alter_table_backgroundjobserver_add_delete_config.sql}
-jobrunr-testbed-scheduler-1  | 17:23:43.130 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/mysql/migrations/v008__alter_table_jobs_increase_jobAsJson_size.sql}
-jobrunr-testbed-scheduler-1  | 17:23:44.453 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/mysql/migrations/v009__change_jobrunr_job_counters_to_jobrunr_metadata.sql}
-jobrunr-testbed-scheduler-1  | 17:23:46.036 [pool-1-thread-1] DEBUG o.j.s.sql.common.DatabaseCreator - Updating lock on migrations table...
-jobrunr-testbed-scheduler-1  | 17:23:46.437 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v010__change_job_stats.sql}
-jobrunr-testbed-scheduler-1  | 17:23:47.872 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v011__change_sqlserver_text_to_varchar.sql}
-jobrunr-testbed-scheduler-1  | 17:23:49.230 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v012__change_oracle_alter_jobrunr_metadata_column_size.sql}
-jobrunr-testbed-scheduler-1  | 17:23:50.331 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v013__alter_table_recurring_job_add_createdAt.sql}
-jobrunr-testbed-scheduler-1  | 17:23:51.039 [pool-1-thread-1] DEBUG o.j.s.sql.common.DatabaseCreator - Updating lock on migrations table...
-jobrunr-testbed-scheduler-1  | 17:23:51.793 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/mysql/migrations/v014__improve_job_stats.sql}
-jobrunr-testbed-scheduler-1  | 17:23:53.593 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v015__alter_table_backgroundjobserver_add_name.sql}
-jobrunr-testbed-scheduler-1  | 17:23:54.855 [main] DEBUG o.j.s.sql.common.DatabaseCreator - Removing lock on migrations table...
-jobrunr-testbed-scheduler-1  | 17:23:55.784 [main] DEBUG o.j.s.sql.common.DatabaseCreator - The lock has been removed from migrations table.
-jobrunr-testbed-scheduler-1  | Scheduling job 0 : jobrunr-testbed-sf-weather-b81b65c9-73db-4c08-8235-b8a7ccca2a0a @ 25 17 * * *
-jobrunr-testbed-scheduler-1  | Scheduling job 1 : jobrunr-testbed-sf-weather-0cd8c2a2-34a9-48bf-b201-d4f5c878c9cb @ 25 17 * * *
-jobrunr-testbed-scheduler-1  | Scheduling job 2 : jobrunr-testbed-sf-weather-0d8c930b-c3de-4453-a434-ae1c2ff710f9 @ 26 17 * * *
-jobrunr-testbed-scheduler-1  | Scheduling job 3 : jobrunr-testbed-sf-weather-2f931d1c-1499-4b3d-a7e9-5224a0977855 @ 26 17 * * *
+jobrunr-testbed-scheduler-1  | 10:30:23.716 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v000__create_migrations_table.sql}
+jobrunr-testbed-scheduler-1  | 10:30:23.740 [main] DEBUG o.j.s.sql.common.DatabaseCreator - Trying to lock migrations table...
+jobrunr-testbed-scheduler-1  | 10:30:23.753 [main] DEBUG o.j.s.sql.common.DatabaseCreator - Successfully locked the migrations table.
+jobrunr-testbed-scheduler-1  | 10:30:23.755 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/mysql/migrations/v001__create_job_table.sql}
+jobrunr-testbed-scheduler-1  | 10:30:23.805 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v002__create_recurring_job_table.sql}
+jobrunr-testbed-scheduler-1  | 10:30:23.825 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/mysql/migrations/v003__create_background_job_server_table.sql}
+jobrunr-testbed-scheduler-1  | 10:30:23.860 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v004__create_job_stats_view.sql}
+jobrunr-testbed-scheduler-1  | 10:30:23.890 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v005__update_job_stats_view.sql}
+jobrunr-testbed-scheduler-1  | 10:30:23.908 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v006__alter_table_jobs_add_recurringjob.sql}
+jobrunr-testbed-scheduler-1  | 10:30:23.944 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v007__alter_table_backgroundjobserver_add_delete_config.sql}
+jobrunr-testbed-scheduler-1  | 10:30:23.989 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/mysql/migrations/v008__alter_table_jobs_increase_jobAsJson_size.sql}
+jobrunr-testbed-scheduler-1  | 10:30:24.029 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/mysql/migrations/v009__change_jobrunr_job_counters_to_jobrunr_metadata.sql}
+jobrunr-testbed-scheduler-1  | 10:30:24.062 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v010__change_job_stats.sql}
+jobrunr-testbed-scheduler-1  | 10:30:24.079 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v011__change_sqlserver_text_to_varchar.sql}
+jobrunr-testbed-scheduler-1  | 10:30:24.090 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v012__change_oracle_alter_jobrunr_metadata_column_size.sql}
+jobrunr-testbed-scheduler-1  | 10:30:24.100 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v013__alter_table_recurring_job_add_createdAt.sql}
+jobrunr-testbed-scheduler-1  | 10:30:24.131 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/mysql/migrations/v014__improve_job_stats.sql}
+jobrunr-testbed-scheduler-1  | 10:30:24.159 [main] INFO  o.j.s.sql.common.DatabaseCreator - Running migration MigrationByPath{path=/org/jobrunr/storage/sql/common/migrations/v015__alter_table_backgroundjobserver_add_name.sql}
+jobrunr-testbed-scheduler-1  | 10:30:24.184 [main] DEBUG o.j.s.sql.common.DatabaseCreator - Removing lock on migrations table...
+jobrunr-testbed-scheduler-1  | 10:30:24.193 [main] DEBUG o.j.s.sql.common.DatabaseCreator - The lock has been removed from migrations table.
+jobrunr-testbed-scheduler-1  | Scheduling job 0 : jobrunr-testbed-sf-weather-d668d0b5-2249-4e05-8555-402d76fe9e89 @ 32 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 1 : jobrunr-testbed-sf-weather-2f9ef963-fcef-41c2-8edb-898fe303a87b @ 32 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 2 : jobrunr-testbed-sf-weather-d71700ed-8c66-46a7-9d82-eeaeed0e31de @ 32 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 3 : jobrunr-testbed-sf-weather-002c4b42-83b7-4b4e-9b14-5242ab16a1af @ 33 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 4 : jobrunr-testbed-sf-weather-70b16040-83aa-4f7d-966e-9dbaf44c6b5c @ 33 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 5 : jobrunr-testbed-sf-weather-fe88bcee-2996-416e-a9a4-d7456c013971 @ 33 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 6 : jobrunr-testbed-sf-weather-698eaa84-0cdc-4573-a8cb-a70079e55acb @ 34 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 7 : jobrunr-testbed-sf-weather-8c898780-b01b-448e-a292-8c981e5b82e4 @ 34 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 8 : jobrunr-testbed-sf-weather-ff57f0e8-406f-4e9e-94a7-d00c032d949e @ 34 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 9 : jobrunr-testbed-sf-weather-4a8c8886-ba98-471f-be76-8bc64ca667fe @ 35 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 10 : jobrunr-testbed-sf-weather-0ad405a0-f869-4c7c-b17f-3a7b8a637382 @ 35 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 11 : jobrunr-testbed-sf-weather-f973704a-dc3f-4bd2-b951-9ac9c278dcd5 @ 35 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 12 : jobrunr-testbed-sf-weather-26982858-609f-4ed5-aa70-38844b955a17 @ 36 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 13 : jobrunr-testbed-sf-weather-2aa03a96-69ea-4d51-b2c1-6b6153fef4d3 @ 36 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 14 : jobrunr-testbed-sf-weather-485d95dc-01cc-4e0a-944c-b25eb1651ffa @ 36 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 15 : jobrunr-testbed-sf-weather-137a045c-c2a7-414c-bc69-7e32f6d7ee37 @ 37 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 16 : jobrunr-testbed-sf-weather-92fc063a-81a4-42dc-abb1-3fb50c90317d @ 37 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 17 : jobrunr-testbed-sf-weather-adbbfdf0-ad2e-412d-97ad-bdb7b6026572 @ 37 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 18 : jobrunr-testbed-sf-weather-9229e1ff-8edf-4710-94ac-2a615b4a8dc9 @ 38 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 19 : jobrunr-testbed-sf-weather-c64104e3-0961-4d58-b87b-d5b6b6f8e08d @ 38 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 20 : jobrunr-testbed-sf-weather-3bc40c49-bb5e-4b8a-9cde-5217b72b5a84 @ 38 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 21 : jobrunr-testbed-sf-weather-2ee58928-f756-45c3-9776-8dda3992700b @ 39 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 22 : jobrunr-testbed-sf-weather-28b1de0b-d5c6-48c3-b215-96a8f291bdc5 @ 39 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 23 : jobrunr-testbed-sf-weather-bf52f157-75f0-4f86-851c-9f4d5a3cdd6c @ 39 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 24 : jobrunr-testbed-sf-weather-430626da-3a69-45e1-bd39-74e8f17eb29a @ 40 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 25 : jobrunr-testbed-sf-weather-ce01e5df-9c0b-4165-b872-3239487b077c @ 40 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 26 : jobrunr-testbed-sf-weather-5a2cdf91-d472-4a5d-a61a-5b7e5af45020 @ 40 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 27 : jobrunr-testbed-sf-weather-40d891ad-e966-421d-bb1d-7a5467658b4b @ 41 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 28 : jobrunr-testbed-sf-weather-f2e83794-9d89-4139-b879-afd26f86c607 @ 41 10 * * *
+jobrunr-testbed-scheduler-1  | Scheduling job 29 : jobrunr-testbed-sf-weather-7be747ce-af6f-4dfe-b372-4020f1d8969a @ 41 10 * * *
 jobrunr-testbed-scheduler-1  | ✅ Scheduling recurring job DONE
-jobrunr-testbed-scheduler-1  | Scheduling job 0 : e1079c86-9d46-47d7-bd5e-018a8f861af7 @ 2025-05-08T00:26:00.936718800Z[UTC]
-jobrunr-testbed-scheduler-1  | 17:24:02.056 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id e1079c86-9d46-47d7-bd5e-018a8f861af7
-jobrunr-testbed-scheduler-1  | Scheduling job 1 : b113c64c-d2aa-40a4-b34d-03a61bc6ae2f @ 2025-05-08T00:26:00.936718800Z[UTC]
-jobrunr-testbed-scheduler-1  | 17:24:03.150 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id b113c64c-d2aa-40a4-b34d-03a61bc6ae2f
-jobrunr-testbed-scheduler-1  | Scheduling job 2 : d575dbd2-ff52-4263-a3e3-9a3aef2f79c1 @ 2025-05-08T00:27:00.936718800Z[UTC]
-jobrunr-testbed-scheduler-1  | 17:24:04.239 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id d575dbd2-ff52-4263-a3e3-9a3aef2f79c1
-jobrunr-testbed-scheduler-1  | Scheduling job 3 : f3ae9578-9684-4725-96b7-84ed9e534bff @ 2025-05-08T00:27:00.936718800Z[UTC]
-jobrunr-testbed-scheduler-1  | 17:24:05.337 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id f3ae9578-9684-4725-96b7-84ed9e534bff
+jobrunr-testbed-scheduler-1  | Scheduling job 0 : e8f53393-f4bb-4c51-b03c-9fdd9aa37cf9 @ 2025-05-13T17:32:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.612 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id e8f53393-f4bb-4c51-b03c-9fdd9aa37cf9
+jobrunr-testbed-scheduler-1  | Scheduling job 1 : 5817dc86-c0f4-4772-a37c-bbb2c6eca317 @ 2025-05-13T17:32:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.622 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id 5817dc86-c0f4-4772-a37c-bbb2c6eca317
+jobrunr-testbed-scheduler-1  | Scheduling job 2 : f2ced4c8-402d-4afc-b751-8aa52c21b77e @ 2025-05-13T17:32:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.632 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id f2ced4c8-402d-4afc-b751-8aa52c21b77e
+jobrunr-testbed-scheduler-1  | Scheduling job 3 : 173ab1fc-d09a-4ca3-a077-fda71127f2bc @ 2025-05-13T17:33:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.642 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id 173ab1fc-d09a-4ca3-a077-fda71127f2bc
+jobrunr-testbed-scheduler-1  | Scheduling job 4 : 58af86df-22f3-4bca-aef2-de7c9239e229 @ 2025-05-13T17:33:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.652 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id 58af86df-22f3-4bca-aef2-de7c9239e229
+jobrunr-testbed-scheduler-1  | Scheduling job 5 : 84a13856-0025-4c57-bda8-998f2cbdc7fc @ 2025-05-13T17:33:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.662 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id 84a13856-0025-4c57-bda8-998f2cbdc7fc
+jobrunr-testbed-scheduler-1  | Scheduling job 6 : 174d184c-0c35-4375-83ad-92bb01b315bc @ 2025-05-13T17:34:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.671 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id 174d184c-0c35-4375-83ad-92bb01b315bc
+jobrunr-testbed-scheduler-1  | Scheduling job 7 : 38c94dc0-8c3a-47b9-8183-1e3ade12e679 @ 2025-05-13T17:34:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.681 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id 38c94dc0-8c3a-47b9-8183-1e3ade12e679
+jobrunr-testbed-scheduler-1  | Scheduling job 8 : 7ae71261-38e5-4913-b121-21fe05b750ac @ 2025-05-13T17:34:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.690 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id 7ae71261-38e5-4913-b121-21fe05b750ac
+jobrunr-testbed-scheduler-1  | Scheduling job 9 : d920d8d3-aeec-4875-ab16-a9baac7faf2d @ 2025-05-13T17:35:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.700 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id d920d8d3-aeec-4875-ab16-a9baac7faf2d
+jobrunr-testbed-scheduler-1  | Scheduling job 10 : b7f701e9-c488-4a35-b8df-2f74a97953d2 @ 2025-05-13T17:35:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.709 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id b7f701e9-c488-4a35-b8df-2f74a97953d2
+jobrunr-testbed-scheduler-1  | Scheduling job 11 : 7fd8ff9c-212d-4318-bfd3-2257f9a678a7 @ 2025-05-13T17:35:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.718 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id 7fd8ff9c-212d-4318-bfd3-2257f9a678a7
+jobrunr-testbed-scheduler-1  | Scheduling job 12 : 34d87193-422c-4f28-92e4-ac7db89e7047 @ 2025-05-13T17:36:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.728 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id 34d87193-422c-4f28-92e4-ac7db89e7047
+jobrunr-testbed-scheduler-1  | Scheduling job 13 : 7ed80b83-3575-4274-8580-f777989cebd3 @ 2025-05-13T17:36:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.738 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id 7ed80b83-3575-4274-8580-f777989cebd3
+jobrunr-testbed-scheduler-1  | Scheduling job 14 : 66e7a081-e704-4e1e-bb43-7b2ca3dca86d @ 2025-05-13T17:36:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.748 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id 66e7a081-e704-4e1e-bb43-7b2ca3dca86d
+jobrunr-testbed-scheduler-1  | Scheduling job 15 : 343ec6a1-6983-4403-b934-39bf3acd5327 @ 2025-05-13T17:37:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.759 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id 343ec6a1-6983-4403-b934-39bf3acd5327
+jobrunr-testbed-scheduler-1  | Scheduling job 16 : 7376b227-b6b6-4f3c-9d5a-b3de4ad6bee5 @ 2025-05-13T17:37:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.768 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id 7376b227-b6b6-4f3c-9d5a-b3de4ad6bee5
+jobrunr-testbed-scheduler-1  | Scheduling job 17 : ba6885d0-fdeb-4e03-ae49-ad767313c1be @ 2025-05-13T17:37:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.778 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id ba6885d0-fdeb-4e03-ae49-ad767313c1be
+jobrunr-testbed-scheduler-1  | Scheduling job 18 : c76d0cdd-0ea8-4f51-98c3-98ab90bce314 @ 2025-05-13T17:38:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.787 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id c76d0cdd-0ea8-4f51-98c3-98ab90bce314
+jobrunr-testbed-scheduler-1  | Scheduling job 19 : 72594667-5fe4-40f3-91eb-d3879ae2aebb @ 2025-05-13T17:38:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.796 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id 72594667-5fe4-40f3-91eb-d3879ae2aebb
+jobrunr-testbed-scheduler-1  | Scheduling job 20 : 20a7bdb5-a3ce-4121-8542-d27a1591e99e @ 2025-05-13T17:38:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.805 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id 20a7bdb5-a3ce-4121-8542-d27a1591e99e
+jobrunr-testbed-scheduler-1  | Scheduling job 21 : 39ff6228-27de-4865-ba9b-0287beb336fc @ 2025-05-13T17:39:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.815 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id 39ff6228-27de-4865-ba9b-0287beb336fc
+jobrunr-testbed-scheduler-1  | Scheduling job 22 : 497e9ad9-64f2-447f-b062-f12dd415783a @ 2025-05-13T17:39:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.824 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id 497e9ad9-64f2-447f-b062-f12dd415783a
+jobrunr-testbed-scheduler-1  | Scheduling job 23 : 7320d626-3893-46ed-b984-b2a80f43bc3b @ 2025-05-13T17:39:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.834 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id 7320d626-3893-46ed-b984-b2a80f43bc3b
+jobrunr-testbed-scheduler-1  | Scheduling job 24 : c97f70a8-0ea0-48b3-9a5e-cca00e509593 @ 2025-05-13T17:40:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.842 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id c97f70a8-0ea0-48b3-9a5e-cca00e509593
+jobrunr-testbed-scheduler-1  | Scheduling job 25 : 0513e3a0-f27d-45eb-9f2e-2299b349abaa @ 2025-05-13T17:40:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.852 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id 0513e3a0-f27d-45eb-9f2e-2299b349abaa
+jobrunr-testbed-scheduler-1  | Scheduling job 26 : 35df1a7b-761f-42bb-bb89-9692b3e19047 @ 2025-05-13T17:40:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.861 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id 35df1a7b-761f-42bb-bb89-9692b3e19047
+jobrunr-testbed-scheduler-1  | Scheduling job 27 : 3cbf8894-3223-47d1-a696-82ceb178af74 @ 2025-05-13T17:41:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.870 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id 3cbf8894-3223-47d1-a696-82ceb178af74
+jobrunr-testbed-scheduler-1  | Scheduling job 28 : 2a10e70a-3c65-426b-9058-97e054459e33 @ 2025-05-13T17:41:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.879 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id 2a10e70a-3c65-426b-9058-97e054459e33
+jobrunr-testbed-scheduler-1  | Scheduling job 29 : 2db12ee8-2bfb-4031-834a-200a697e8235 @ 2025-05-13T17:41:24.590721094Z[UTC]
+jobrunr-testbed-scheduler-1  | 10:30:24.888 [main] DEBUG o.j.scheduling.AbstractJobScheduler - Created Job with id 2db12ee8-2bfb-4031-834a-200a697e8235
 jobrunr-testbed-scheduler-1  | ✅ Scheduling onetime job DONE 
 [Kjobrunr-testbed-scheduler-1 exited with code 0
 Aborting on container exit...

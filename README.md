@@ -47,6 +47,16 @@ This will:
 - Run the scheduler container (which exits after scheduling jobs)
 - Launch 5 worker containers to process the jobs
 
+### 2. Cause downtime
+
+```bash
+chmod +x chaos.sh
+./chaos.sh
+```
+This will:
+
+- Kill containers randomly every 100 seconds
+- Bring back containers, and enforce master election
 
 # 📝 Log Output
 - Scheduled Job IDs: `logs/scheduled-job-ids.txt`

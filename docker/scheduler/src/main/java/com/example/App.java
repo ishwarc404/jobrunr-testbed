@@ -54,17 +54,18 @@ public class App {
         
 
         try (FileWriter logWriter = new FileWriter(logFilePath, true)) {
-        LocalDateTime now = LocalDateTime.now().plusMinutes(2); // start 5 minutes from now
+        LocalDateTime now = LocalDateTime.now().plusMinutes(2); // start 2 minutes from now
         int startHour = now.getHour();
         int startMinute = now.getMinute();
-        
-        for (int i = 0; i < 2; i++) { // 30 minutes → 60 jobs total (2 per minute)
+        int timeToRun = 10; // 10 minutes
+        int jobCount = 3; // 3 jobs per minute
+        for (int i = 0; i < timeToRun; i++) { 
             int minute = (startMinute + i) % 60;
             int hour = (startHour + (startMinute + i) / 60) % 24;
         
             String cron = String.format("%d %d * * *", minute, hour);
         
-            for (int j = 0; j < 2; j++) {
+            for (int j = 0; j < jobCount; j++) {
                 String jobId = "jobrunr-testbed-sf-weather-" + UUID.randomUUID();
                 String runTime = String.format("%02d:%02d", hour, minute);
                 System.out.println("Scheduling job " + jobCounter++ + " : " + jobId + " @ " + cron);
@@ -79,10 +80,10 @@ public class App {
 
         ZonedDateTime startTime = ZonedDateTime.now(ZoneId.of("UTC")).plusMinutes(2);
 
-        for (int i = 0; i < 2; i++) { // 30 minutes → 60 jobs total
+        for (int i = 0; i < timeToRun; i++) { 
             ZonedDateTime minuteSlot = startTime.plusMinutes(i);
 
-            for (int j = 0; j < 2; j++) {
+            for (int j = 0; j < jobCount; j++) {
                 UUID jobId = UUID.randomUUID();
                 String runTime = minuteSlot.withZoneSameInstant(ZoneId.systemDefault()).toLocalTime().toString();
                 System.out.println("Scheduling job " + jobCounter++ + " : " + jobId + " @ " + minuteSlot);
